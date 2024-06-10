@@ -1,0 +1,32 @@
+{
+	"pets": [
+        {
+			"id": "P1",
+			"type": "Dog",
+			"legs": 4,
+			"comment": "Mans best friend"
+		}, {
+			"id": "P3",
+			"type": "Cat",
+			"legs": 4,
+			"comment": "You are the pet!"
+		}, {
+			"id": "P3",
+			"type": "Snake",
+			"legs": 0,
+			"comment": "Dont like hugs"
+		},
+		{
+			"id": "P4",
+			"type": "Spider",
+			"legs": 8,
+			"comment": "Just wants to be your friend"
+		},
+		{
+			"id": "P5",
+			"type": "Rock",
+			"legs": 0,
+			"comment": "Seriously....."
+		}
+	]
+}

@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_application_1/routes/four_route.dart';
+import 'package:flutter_application_1/routes/third_route.dart';
 import 'routes/second_route.dart';
 
 void main() {
@@ -147,7 +149,28 @@ class _MyHomePageState extends State<MyHomePage> {
             FloatingActionButton(
               //hero tag is an id
               heroTag: "going down",
-              onPressed: _incrementCounter,
+              onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => const Third(),
+                  ),
+                );
+              },
+              tooltip: 'Decrement',
+              child: const Icon(Icons.add),
+            ),
+            FloatingActionButton(
+              //hero tag is an id
+              heroTag: "going down",
+              onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => const Four(),
+                  ),
+                );
+              },
               tooltip: 'Decrement',
               child: const Icon(Icons.add),
             ),

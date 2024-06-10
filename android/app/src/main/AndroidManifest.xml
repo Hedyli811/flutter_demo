@@ -3,6 +3,11 @@
         android:label="bulbs"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
+
+ 
+    <meta-data 
+        android:name="com.google.android.geo.API_KEY"
+        android:value="AIzaSyCOaDqqRxGWzFYR5TbUu0ju9A66q1xT9vc"/>
         <activity
             android:name=".MainActivity"
             android:exported="true"
